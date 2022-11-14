@@ -1,9 +1,21 @@
 def is_prime(n):
     """
-    A prime number is a natural number greater than 1 that has no positive divisors other than 1 and itself.
+    Un nombre premier est un entier naturel supérieur strictement à 1 qui est
+    divisible uniquement par 1 et par lui-même.
 
-    :param n: An integer that is assumed to be positive or zero.
-    :return: True if n is prime, False otherwise.
+    Implémenter une fonction qui prend comme paramètre un entier supposé positif
+    ou nul, et qui renvoie 'True' si cet entier est premier, 'False' sinon.
+
+    :param n:   Un entier supposé positif ou nul.
+    :return:    True si n est premier, False sinon.
     """
-    # TODO: Implement this function
+    # TODO: Implémenter ci-après cette fonction en remplaçant "..." par votre
+    # programme.
+    ...
 
+
+
+if __name__ == '__main__':
+    # Vous pouvez compléter avec tous les tests que vous souhaitez.
+    print(is_prime(1))
+    print(is_prime(2))
